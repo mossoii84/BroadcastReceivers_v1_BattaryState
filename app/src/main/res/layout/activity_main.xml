@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/statusLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Charging!"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/batteryImage"
+        android:layout_width="243dp"
+        android:layout_height="404dp"
+        android:src="@drawable/ic_baseline_work_outline_24"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="49"
+        android:textSize="25sp"
+        android:id="@+id/parcentageLabel"/>
+
+</LinearLayout>
